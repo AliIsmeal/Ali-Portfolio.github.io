@@ -1,0 +1,175 @@
+ /* extra Small devices ( phones, 359px and up) */
+  @media screen and (min-width: 359px) {
+   .udacity-logo{
+       position:absolute;
+       top: 40px;
+       left:10px;
+       width:50px;
+       float:left;
+       z-index:2;
+ }
+
+
+ .My-Name{
+       text-align: center;
+       color: #000;
+       margin: 0;
+ }
+
+
+  h1.My-Name{
+    padding: 20px 0  0  0;
+}
+
+.featured-work{
+   position: relative;
+   font-size: 1.5em;
+   color: #7d97ad;
+   margin: 10px;
+ }
+
+  p{
+    font-size: 20px;
+    text-align: center;
+    color:#000;
+    margin: 5px auto;
+}
+
+ .project-link{
+      font-size: 1em;
+}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+.udacity-logo{
+      position:absolute;
+      width:50px;
+      float:left;
+}
+
+ .project{
+       max-width: 300px;
+       margin: 15px 5px;
+}
+}
+ /* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .udacity-logo{
+        position: absolute;
+        top: 30px;
+        width: 100px;
+        float: left;
+        left: 25px;
+}
+
+
+.project{
+        max-width: 320px;
+        margin-bottom: 20px;
+ }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  body{
+        padding-top: 10px;
+  }
+
+
+  header{
+        text-align: right;
+        min-height: 25vh;
+        padding-bottom: 5px;
+  }
+
+  h1.My-Name{
+         font-family: 'Montserrat', sans-serif;
+         font-size: 50px;
+         position: relative;
+         text-align: right;
+         padding-top: 50px;
+         margin-bottom: 0;
+    }
+
+    h2.My-Name{
+        margin: 5px;
+    }
+
+
+    .project-name{
+        font-size: 3em;
+        text-align: right;
+        color: #000;
+    }
+
+
+    .udacity-logo{
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        width: 130px;
+        float: left;
+    }
+
+     .My-Name{
+        text-align: right;
+        right: 10px;
+
+    }
+
+     .project{
+        max-width: 415px;
+        margin-bottom: 20px;
+  }
+
+
+     section>h2{
+          position: relative;
+          left: 15px;
+          font-size: 1em;
+          color: #7d97ad;
+          margin: 0;
+  }
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+     .udacity-logo{
+          position: absolute;
+          top: 90px;
+          left: 50px;
+          width: 150px;
+          float: left;
+  }
+
+
+     h1.My-Name{
+         font-family: 'Montserrat', sans-serif;
+         font-size: 60px;
+         position: relative;
+         text-align: right;
+         padding-top: 60px;
+         margin-bottom: 0;
+  }
+
+
+    .project-name{
+        font-size: 3em;
+        text-align: right;
+        color: #000;
+  }
+
+    .project{
+        max-width: 350px;
+        margin-bottom: 20px;
+  }
+    .portfolio-image{
+        margin-bottom: 20px;
+  }
+
+
+  .project>p{
+    text-align: center;
+    }
+
+}
