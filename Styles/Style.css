@@ -1,59 +1,67 @@
-
-
-body {
-    background-color: #2d3c49;
-    color: #999;
-    font-size: 16px;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 
-.wrapper{
-    max-width: 95%;
-    height: 90%;
+body {
     background-color: #fff;
-    margin: 0 auto;
-    padding: 0 5%;
+    font-size: 16px;
 }
 
 /******  Headings *****/
 
 header{
-   min-width: 30vh;
-   border-bottom: 5px solid #7d97ad;
-   margin-bottom: 2em;
+     min-width: 30vh;
+     border-bottom: 5px solid #7d97ad;
+     margin-bottom: 30px;
 }
 
 /* Images*/
 img{
-    max-width: 100%;
+    width: 100%;
   }
 
+.udacity-logo{
+    position: absolute;
+    float:left;
+    z-index: 1;
+}
 
-.about-image{
-  border-radius: 5px;
+
+.about-image,
+.project-image{
+    border-radius: 5px;
   }
 
 
 .portfolio-image{
-   margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 
 .about-image{
     width: 100%;
-    max-height: 80vh;
-}
+    margin: auto;
+  }
 /* End Of Images  */
 
 .My-Name{
-     font-family: 'Montserrat', sans-serif;
-     font-family: 'Open Sans Condensed', sans-serif;
-     position: relative;
+     font-family:"Courier New", Courier, monospace;;
+     font-weight: 100;
 }
 /****** End of Headings *******/
 
+/**** Section ****/
+.Featured-Work{
+    color: #999;
+    position: relative;
+    left: 20px;
+    margin: 10px 20px;
+}
 
-/**** Sections ****/
+
 .section-projects{
     display: flex;
     flex-wrap: wrap;
@@ -61,14 +69,34 @@ img{
 }
 
 
-.project{
-    max-width: 350px;
-    margin-bottom: 1.25em;
+.section-projects .project{
+    max-width: 460px;
+    margin-bottom: 20px;
 }
-/**** End Of Sections ****/
 
+
+.project h2{
+  text-align: center;
+  color: #000;
+}
+
+
+p{
+  font-size: 1em;
+  text-align: center;
+  color: #000;
+  margin: 5px auto;
+}
+/**** End Of Section ****/
+
+
+.project p{
+  text-align: center;
+  }
 /***** Footer *******/
-footer>p{
+
+
+footer p{
     font-size: 1em;
     text-align :center;
     clear:both;

@@ -1,175 +1,224 @@
- /* extra Small devices ( phones, 359px and up) */
-  @media screen and (min-width: 359px) {
-   .udacity-logo{
-       position:absolute;
-       top: 40px;
-       left:10px;
-       width:50px;
-       float:left;
-       z-index:2;
- }
+/* extra Small devices ( phones, 320px and up) */
+ @media screen and (min-width: 320px) and (max-width:575px){
+    .udacity-logo{
+        position: absolute;
+        top: 25px;
+        left: 10px;
+        width: 60px;
+        float: left;
+        z-index: 2;
+  }
 
 
- .My-Name{
+  .My-Name{
        text-align: center;
        color: #000;
-       margin: 0;
- }
+       margin: 0 0 10px 0;
+  }
 
 
-  h1.My-Name{
-    padding: 20px 0  0  0;
-}
+   h1.My-Name{
+      font-size: 1.25em;
+      padding: 20px 0  0  0;
+    }
 
-.featured-work{
-   position: relative;
-   font-size: 1.5em;
-   color: #7d97ad;
-   margin: 10px;
- }
 
-  p{
-    font-size: 20px;
-    text-align: center;
-    color:#000;
-    margin: 5px auto;
-}
+   h2.My-Name{
+       font-size: 1em;
+   }
 
- .project-link{
-      font-size: 1em;
-}
+
+   .Featured-Work{
+       font-size: 1.25em;
+     }
+
+
+   .project{
+        width: 95%;
+        margin: 15px auto;
+   }
+
+
+   .about-image{
+         min-height: 20vh;
+   }
+
+
+   .project-image{
+     margin-bottom: 10px;
+   }
+
+
+     p{
+       font-size: 0.5em;
+   }
+
+
+   .project h2{
+     font-size: 1em;
+     margin: 0;
+   }
+
+
+    .project-link{
+         font-size: 1em;
+   }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
-.udacity-logo{
-      position:absolute;
-      width:50px;
-      float:left;
-}
+ .udacity-logo{
+       width:50px;
+     }
+
 
  .project{
-       max-width: 300px;
-       margin: 15px 5px;
+      max-width: 300px;
+      margin: 15px 5px;
+      min-height: 10vh;
 }
 }
- /* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-  .udacity-logo{
-        position: absolute;
-        top: 30px;
-        width: 100px;
-        float: left;
-        left: 25px;
+ .udacity-logo{
+       top: 30px;
+       width: 100px;
+       left: 25px;
 }
 
 
-.project{
-        max-width: 320px;
-        margin-bottom: 20px;
- }
- }
+ .project{
+         max-width: 320px;
+         margin-bottom: 20px;
+  }
+  .Featured-Work{
+    position: relative;
+    left: 20px;
+    font-size: 2em;
+    margin-left: 20px;
+  }
+}
 
- /* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-  body{
-        padding-top: 10px;
-  }
-
-
-  header{
-        text-align: right;
-        min-height: 25vh;
-        padding-bottom: 5px;
-  }
-
-  h1.My-Name{
-         font-family: 'Montserrat', sans-serif;
-         font-size: 50px;
-         position: relative;
+   header{
          text-align: right;
-         padding-top: 50px;
-         margin-bottom: 0;
-    }
-
-    h2.My-Name{
-        margin: 5px;
-    }
+         min-height: 20vh;
+         padding-bottom: 5px;
+   }
 
 
-    .project-name{
-        font-size: 3em;
-        text-align: right;
-        color: #000;
-    }
+   h1.My-Name{
+          font-size: 50px;
+          text-align: right;
+          padding-top: 40px;
+          margin-bottom: 0;
+     }
+
+
+   h2.My-Name{
+       margin: 5px;
+   }
+
+
+  .Featured-Work{
+      font-size: 1.5em;
+      }
+
+
+   .project-name{
+       font-size: 3em;
+       text-align: right;
+       color: #000;
+   }
+
+
+   .about-image{
+     max-height: 60vh;
+   }
+
+
+   .udacity-logo{
+      top: 60px;
+      width: 130px;
+   }
+
+
+    .My-Name{
+       text-align: right;
+       right: 10px;
+       margin-bottom: 10px;
+   }
+
+
+     h2.My-Name{
+       padding-bottom: 10px;
+       font-size: 1.25em;
+     }
+
+     .project-image{
+       max-width: 310px;
+     }
+
+
+     .project h2{
+       font-size: 1em;
+       }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    header{
+       min-height: 25vh;
+ }
 
 
     .udacity-logo{
-        position: absolute;
-        top: 80px;
-        left: 50px;
-        width: 130px;
-        float: left;
-    }
+       top: 50px;
+       width: 225px;
+       margin-left: 0;
+   }
 
-     .My-Name{
-        text-align: right;
-        right: 10px;
 
-    }
 
-     .project{
-        max-width: 415px;
-        margin-bottom: 20px;
+    h1.My-Name{
+      font-size: 5em;
+      position: relative;
+      text-align: right;
+      margin-bottom: 10px;
+ }
+
+
+  h2.My-Name{
+     font-size: 1.5em;
+     font-weight: 400;
   }
 
 
-     section>h2{
-          position: relative;
-          left: 15px;
-          font-size: 1em;
-          color: #7d97ad;
-          margin: 0;
-  }
-}
-
- /* Extra large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
-     .udacity-logo{
-          position: absolute;
-          top: 90px;
-          left: 50px;
-          width: 150px;
-          float: left;
+  .about-image{
+     max-height: 80vh;
   }
 
 
-     h1.My-Name{
-         font-family: 'Montserrat', sans-serif;
-         font-size: 60px;
-         position: relative;
-         text-align: right;
-         padding-top: 60px;
-         margin-bottom: 0;
-  }
+   .project-name{
+     font-size: 3em;
+     text-align: right;
+     color: #000;
+ }
 
 
-    .project-name{
-        font-size: 3em;
-        text-align: right;
-        color: #000;
-  }
-
-    .project{
-        max-width: 350px;
-        margin-bottom: 20px;
-  }
-    .portfolio-image{
-        margin-bottom: 20px;
-  }
+   .project{
+       max-width: 430px;
+       margin-bottom: 20px;
+ }
 
 
-  .project>p{
-    text-align: center;
-    }
+   .portfolio-image{
+       margin-bottom: 20px;
+ }
 
+
+ .project-image{
+      max-width: 380px;
+      margin: 0 auto;
+ }
 }
