@@ -1,105 +1,103 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-
 body {
-    background-color: #fff;
-    font-size: 16px;
+  background-color: #fff;
+  font-size: 16px;
 }
 
 /******  Headings *****/
 
-header{
-     min-width: 30vh;
-     border-bottom: 5px solid #7d97ad;
-     margin-bottom: 30px;
+header {
+  min-width: 30vh;
+  border-bottom: 5px solid #7d97ad;
+  margin-bottom: 30px;
+}
+
+#wrapper {
+  width: 100%;
 }
 
 /* Images*/
-img{
-    width: 100%;
-  }
 
-.udacity-logo{
-    position: absolute;
-    float:left;
-    z-index: 1;
+img {
+  width: 100%;
 }
 
+.udacity-logo {
+  position: absolute;
+  float: left;
+  z-index: 1;
+}
 
 .about-image,
-.project-image{
-    border-radius: 5px;
-  }
-
-
-.portfolio-image{
-    margin-bottom: 20px;
+.project-image {
+  border-radius: 5px;
 }
 
+.portfolio-image {
+  margin-bottom: 20px;
+}
 
-.about-image{
-    width: 100%;
-    margin: auto;
-  }
+.about-image {
+  width: 100%;
+  margin: auto;
+}
+
 /* End Of Images  */
 
-.My-Name{
-     font-family:"Courier New", Courier, monospace;;
-     font-weight: 100;
+ h1,
+ h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
 }
+
 /****** End of Headings *******/
 
 /**** Section ****/
-.Featured-Work{
-    color: #999;
-    position: relative;
-    left: 20px;
-    margin: 10px 20px;
+
+#featured-work {
+  color: #999;
+  position: relative;
+  left: 5px;
+  margin: 10px 20px;
 }
 
 
-.section-projects{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.section-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 
-.section-projects .project{
-    max-width: 460px;
-    margin-bottom: 20px;
+.project {
+  max-width: 460px;
+  margin-bottom: 20px;
 }
 
 
-.project h2{
+.card-title {
   text-align: center;
   color: #000;
 }
 
 
-p{
+p {
   font-size: 1em;
   text-align: center;
   color: #000;
   margin: 5px auto;
 }
+
 /**** End Of Section ****/
 
-
-.project p{
+.project-link {
   text-align: center;
-  }
+}
+
 /***** Footer *******/
 
-
-footer p{
-    font-size: 1em;
-    text-align :center;
-    clear:both;
-    padding-top: 50px;
-    color: #ccc;
+footer {
+  font-size: 1em;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
 }
