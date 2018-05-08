@@ -19,7 +19,7 @@
 
   .udacity-logo {
     position: absolute;
-    max-width: 100px;
+    max-width: 200px;
     left:10px;
     z-index: 11;
   }
