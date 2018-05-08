@@ -1,103 +1,101 @@
-body {
-  background-color: #fff;
-  font-size: 16px;
-}
+ body {
+    background-color: #fff;
+    font-size: 16px;
+    margin: 0;
+  }
 
-/******  Headings *****/
+  /******  Headings *****/
 
-header {
-  min-width: 30vh;
-  border-bottom: 5px solid #7d97ad;
-  margin-bottom: 30px;
-}
-
-#wrapper {
-  width: 100%;
-}
-
-/* Images*/
-
-img {
-  width: 100%;
-}
-
-.udacity-logo {
-  position: absolute;
-  float: left;
-  z-index: 1;
-}
-
-.about-image,
-.project-image {
-  border-radius: 5px;
-}
-
-.portfolio-image {
-  margin-bottom: 20px;
-}
-
-.about-image {
-  width: 100%;
-  margin: auto;
-}
-
-/* End Of Images  */
-
- h1,
- h2 {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 100;
-}
-
-/****** End of Headings *******/
-
-/**** Section ****/
-
-#featured-work {
-  color: #999;
-  position: relative;
-  left: 5px;
-  margin: 10px 20px;
-}
+  header {
+    border-bottom: 5px solid #7d97ad;
+    margin-bottom: 30px;
+  }
 
 
-.section-projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+  #wrapper {
+    width: 100%;
+  }
 
 
-.project {
-  max-width: 460px;
-  margin-bottom: 20px;
-}
+  .udacity-logo {
+    position: absolute;
+    max-width: 100px;
+    left:10px;
+    z-index: 11;
+  }
 
 
-.card-title {
-  text-align: center;
-  color: #000;
-}
+  .about-image,
+  .project-image {
+    border-radius: 5px;
+    width: 100%;
+  }
 
 
-p {
-  font-size: 1em;
-  text-align: center;
-  color: #000;
-  margin: 5px auto;
-}
+  .portfolio-image {
+    margin-bottom: 20px;
+  }
 
-/**** End Of Section ****/
 
-.project-link {
-  text-align: center;
-}
+  .about-image {
+    margin: auto;
+  }
 
-/***** Footer *******/
+  /* End Of Images  */
 
-footer {
-  font-size: 1em;
-  clear: both;
-  padding-top: 50px;
-  color: #ccc;
-}
+   h1,
+   h2 {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 100;
+  }
+  /****** End of Headings *******/
+
+  /**** Section ****/
+  #featured-work {
+    color: #999;
+    position: relative;
+    left: 5px;
+    margin: 10px 20px;
+  }
+
+
+  .section-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+  .project {
+    max-width: 460px;
+    margin-bottom: 20px;
+  }
+
+
+  .card-title {
+    text-align: center;
+    color: #000;
+  }
+
+
+  p {
+    font-size: 1em;
+    text-align: center;
+    color: #000;
+    margin: 5px auto;
+  }
+
+  /**** End Of Section ****/
+
+  .project-link {
+    text-align: center;
+  }
+
+  /***** Footer *******/
+
+  footer {
+    font-size: 1em;
+    clear: both;
+    padding-top: 50px;
+    color: #ccc;
+  }
