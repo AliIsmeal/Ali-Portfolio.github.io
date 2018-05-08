@@ -55,15 +55,26 @@
 
 @media screen and (min-width: 576px) {
   header {
-    text-align: right;
+    text-align: center;
     width: 100%;
   }
 
 
+  .udacity-logo {
+    width: 80px;
+    top:40px;
+  }
+
+
   .project {
-    max-width: 300px;
-    margin: 15px 5px;
+    max-width: 450px;
+    margin: 15px auto;
     min-height: 10vh;
+  }
+
+
+  .project-image {
+    width: 310px;
   }
 }
 
@@ -78,7 +89,7 @@
 
 
   header {
-    text-align: right;
+    text-align:center;
     width: 100%;
   }
 
